@@ -95,7 +95,7 @@ const SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
 form.addEventListener('submit', async function(e) {
     e.preventDefault();
     
-    if (SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+    if (SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbwAQ0V4o2Ho4Sycp5qB_Vc4NAT-VIzchToZYQlp80_na4XUxsNg12WGiArJf3QAal5Z/exec') {
         statusMessage.textContent = "Please set the Google Apps Script Web App URL in script.js (Check instructions)";
         statusMessage.className = "status-message error";
         return;
